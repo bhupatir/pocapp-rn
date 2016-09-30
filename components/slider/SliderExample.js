@@ -24,7 +24,7 @@ class SliderExample extends React.Component{
         <Text style={styles.text}>
           Age: {this.state.age}
         </Text>
-        <SliderIOS
+        <SliderANDROID
           style={styles.slider}
           minimumValue={0}
           maximumValue={100}
